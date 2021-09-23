@@ -1,0 +1,48 @@
+{
+  "name": "babel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.3.2",
+    "axios": "^0.21.4",
+    "chai": "^4.3.4",
+    "ethers": "^5.4.7",
+    "git": "^0.1.5",
+    "hardhat": "^2.6.4",
+    "heroku": "^7.59.0",
+    "ipfs-http-client": "^52.0.5",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "web3modal": "^1.9.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/code-frame": "^7.14.5",
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "autoprefixer": "^10.3.4",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "ethereum-waffle": "^3.4.0",
+    "nodemon": "^2.0.12",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.15"
+  },
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.",
+  "main": "config.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
